@@ -1,11 +1,14 @@
-import { Subject } from '@src/leetcode';
+import { ISubject } from '.';
 
-class Subject0001 extends Subject {
+class Subject0001 implements ISubject {
+  constructor() {
+    this.read();
+  }
   read() {
     console.log('读题');
   }
-  resolve() {
-    console.log('resolve111');
+  resolve(...restOps: any[]): any {
+    console.log('resolve111', restOps);
   }
 }
 

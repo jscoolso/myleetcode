@@ -12,5 +12,5 @@ module.exports = {
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)',
     '**/tests/base/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   ],
-  preset: '@shelf/jest-mongodb'
+  preset: ''
 };
